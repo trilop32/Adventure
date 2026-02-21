@@ -1,0 +1,1599 @@
+fileFormatVersion: 2
+guid: 082768279ccd5bb4090a052cff67adf1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -160, y: -80}
+        - {x: 160, y: -80}
+        - {x: 160, y: 80}
+        - {x: -159, y: 80}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57aea5ea03aceb146ae0e7967abdd69c
+      internalID: -709605560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aeee37f00ace7b4985e8926446af00f
+      internalID: -115770544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27d324394cb93b458ae995b6ab662b8
+      internalID: 1455266313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a55edf0c865c7a45b24ebcce99f9d22
+      internalID: 1516152989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3a79d9671720e4088b8a5ba2ab4cd6
+      internalID: 1380869536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2b568e7e44d7747aecd6dca42b3bc0
+      internalID: 907668088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a837ce6e90a63f947a1dc6e07d2cffdd
+      internalID: -1820811425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e749382f0b9aca4d8309129f2e1240a
+      internalID: 1390791217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4fdc85b3e3c8347946ce3c99dc2cda
+      internalID: 1800034842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e84b767c0f81848bb0ced5dbdf8c3e
+      internalID: -1747420521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9e18af5dd89384eb52a450ce7aca4f
+      internalID: 1315294279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3dd052b9c46c548a624025e23d953b
+      internalID: -1977269299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13eb37f30bc57fd4eb981f5195ff9641
+      internalID: -1769177806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5acad4861aeee49bcae811513758ba
+      internalID: -1415536583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c96e29ccaf44f4ea0e069951c1c99a
+      internalID: 1149286984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d29fe2414be3f41a006593df22bb9c
+      internalID: -1774411985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0035881a3724d458586d91ec7af049
+      internalID: 1009133427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_27
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ea368b7953364438b47710ac27d3dc
+      internalID: -85133411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f304fd30c606b845bb40c7ac45e7d6c
+      internalID: -665978320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_29
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0feeab3791a2f1e42af0a0ddf10b38f8
+      internalID: 731305300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008774c400bace143b7fe6493c717c99
+      internalID: 1918820948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375d2c7ede88cce44a3f74555b1c9971
+      internalID: -2090322325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_42
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba576d92d5555440962fa39e6784004
+      internalID: 1258497694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_43
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871c64389687e0842a3daa418001836e
+      internalID: -1246813285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb7e3e60edeb624fb608ee542d6122e
+      internalID: -744549433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fda13c0cf253d2488bfe6af1002ec79
+      internalID: -1314395648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_47
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a45717153f8894a816ac634e0abe19
+      internalID: 1829578937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_48
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca33557c7da7f2468d4cf1abc9f248a
+      internalID: -881672705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_49
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97556113f1a7814082b64ecdbd57605
+      internalID: -1949995788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5405254d473004745a0a4235e462a7c6
+      internalID: -721651830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_62
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9ea0732ee128a458d665336335d38b
+      internalID: 177908714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0997f88f45b4bed40a8ac953d4c882bc
+      internalID: 1373052617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db98bedba5bfc1842aa364be3a8ebafb
+      internalID: -894277214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b2484e8da6cfe45ac6e81df4221420
+      internalID: 1505549517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_69
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c391cc1d0e678574faf01411e8e183cb
+      internalID: -711575495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa5cb3582bb4dd47be52883f5a65775
+      internalID: -213246136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_83
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08c97f8eca50e441ab39771153aa366
+      internalID: -1623265479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_85
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5883fe7a23e179d469192596350de170
+      internalID: -92513762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_87
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e5737e313f0e142a56248a82266ae0
+      internalID: -638512824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1073abdd6cd8cdb459a17c081ce0f951
+      internalID: -979173421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_89
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adde82cecc8e36b4e940c394fe4db517
+      internalID: 1682303255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753757877ac058b4ab3460d060719a91
+      internalID: 398568488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_103
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a783f72704c0244c8b695fc348f526e
+      internalID: 35626432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_105
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee751783bca3c494c87da19df6716565
+      internalID: -698278306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_107
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183d32f6f98886b47b127a075411b974
+      internalID: 1940661244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_108
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 65
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ff78ef2bc8da74c8c7673d4c5fb527
+      internalID: -2039415006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671f597872016304c81e509894759ba8
+      internalID: -1182491460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_123
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e911a897cbaa0ca4699ef41fa365dd1d
+      internalID: -667768658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_125
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cbe0be61412574189d1c7a2eee3557
+      internalID: 1859431940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_127
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c957f73d8e56e45b95ca34fe702702
+      internalID: 19361899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_136
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8152e7f7f50398e49b759e7ae8b6f90a
+      internalID: 275541652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_139
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11e4327edf96b24eafd46d6569f4d82
+      internalID: 1860310833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_141
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87392053dd7bc8a4eb586e422b3c3189
+      internalID: 1092472833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_143
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e1f183fcbbf534aa814cc0368fe1d0
+      internalID: -630928556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_152
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e540e03a39fc1e4cb373870879780d4
+      internalID: 2011860499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_155
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a59e774c6045148b94f986ba811a3b
+      internalID: -1161048803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_157
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc2d234b681ff041b2b7dcfca463e43
+      internalID: -714531322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Buttons_Pixel_166
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548f925d933e8ae43839dfb349c0cf68
+      internalID: 754573963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      - key: SpriteEditor.SliceOnImport
+        value: False
+    nameFileIdTable:
+      Gray_Buttons_Pixel_0: -709605560
+      Gray_Buttons_Pixel_1: -115770544
+      Gray_Buttons_Pixel_10: -1906885336
+      Gray_Buttons_Pixel_100: 398568488
+      Gray_Buttons_Pixel_101: 375455048
+      Gray_Buttons_Pixel_102: -1634634063
+      Gray_Buttons_Pixel_103: 35626432
+      Gray_Buttons_Pixel_104: 809250927
+      Gray_Buttons_Pixel_105: -698278306
+      Gray_Buttons_Pixel_106: -1614076031
+      Gray_Buttons_Pixel_107: 1940661244
+      Gray_Buttons_Pixel_108: -2039415006
+      Gray_Buttons_Pixel_109: 144084492
+      Gray_Buttons_Pixel_11: -1000301086
+      Gray_Buttons_Pixel_110: -673838423
+      Gray_Buttons_Pixel_111: -1483447288
+      Gray_Buttons_Pixel_112: 1751994628
+      Gray_Buttons_Pixel_113: 871528349
+      Gray_Buttons_Pixel_114: 2055941633
+      Gray_Buttons_Pixel_115: -1164282113
+      Gray_Buttons_Pixel_116: -556249763
+      Gray_Buttons_Pixel_117: -400478802
+      Gray_Buttons_Pixel_118: 527938108
+      Gray_Buttons_Pixel_119: 1646706311
+      Gray_Buttons_Pixel_12: 236304726
+      Gray_Buttons_Pixel_120: -1182491460
+      Gray_Buttons_Pixel_121: -309144785
+      Gray_Buttons_Pixel_122: 650328832
+      Gray_Buttons_Pixel_123: -667768658
+      Gray_Buttons_Pixel_124: -63585182
+      Gray_Buttons_Pixel_125: 1859431940
+      Gray_Buttons_Pixel_126: -1490587424
+      Gray_Buttons_Pixel_127: 19361899
+      Gray_Buttons_Pixel_128: -2142114211
+      Gray_Buttons_Pixel_129: -563765026
+      Gray_Buttons_Pixel_13: -1184759246
+      Gray_Buttons_Pixel_130: 1025534635
+      Gray_Buttons_Pixel_131: -1678083568
+      Gray_Buttons_Pixel_132: 663650146
+      Gray_Buttons_Pixel_133: 2137972935
+      Gray_Buttons_Pixel_134: -1833099096
+      Gray_Buttons_Pixel_135: -1494671811
+      Gray_Buttons_Pixel_136: 275541652
+      Gray_Buttons_Pixel_137: 395394669
+      Gray_Buttons_Pixel_138: 1211642839
+      Gray_Buttons_Pixel_139: 1860310833
+      Gray_Buttons_Pixel_14: -791195570
+      Gray_Buttons_Pixel_140: 1125749914
+      Gray_Buttons_Pixel_141: 1092472833
+      Gray_Buttons_Pixel_142: 1651289392
+      Gray_Buttons_Pixel_143: -630928556
+      Gray_Buttons_Pixel_144: 1964850837
+      Gray_Buttons_Pixel_145: 1867521149
+      Gray_Buttons_Pixel_146: -1276710590
+      Gray_Buttons_Pixel_147: -1976545596
+      Gray_Buttons_Pixel_148: 866111726
+      Gray_Buttons_Pixel_149: -1085880505
+      Gray_Buttons_Pixel_15: 1999556280
+      Gray_Buttons_Pixel_150: 92039232
+      Gray_Buttons_Pixel_151: -738202970
+      Gray_Buttons_Pixel_152: 2011860499
+      Gray_Buttons_Pixel_153: -1634032370
+      Gray_Buttons_Pixel_154: 1157601197
+      Gray_Buttons_Pixel_155: -1161048803
+      Gray_Buttons_Pixel_156: -1866143578
+      Gray_Buttons_Pixel_157: -714531322
+      Gray_Buttons_Pixel_158: -1288798111
+      Gray_Buttons_Pixel_159: 2101562103
+      Gray_Buttons_Pixel_16: -11194563
+      Gray_Buttons_Pixel_160: 1018348977
+      Gray_Buttons_Pixel_161: 1626750821
+      Gray_Buttons_Pixel_162: 1521484394
+      Gray_Buttons_Pixel_163: 1480169053
+      Gray_Buttons_Pixel_164: -1884121626
+      Gray_Buttons_Pixel_165: 1364628167
+      Gray_Buttons_Pixel_166: 754573963
+      Gray_Buttons_Pixel_167: -293691135
+      Gray_Buttons_Pixel_168: -30195229
+      Gray_Buttons_Pixel_169: 789365836
+      Gray_Buttons_Pixel_17: -1678172719
+      Gray_Buttons_Pixel_170: -114734205
+      Gray_Buttons_Pixel_171: 927031501
+      Gray_Buttons_Pixel_18: -1967510105
+      Gray_Buttons_Pixel_19: 346101508
+      Gray_Buttons_Pixel_2: 1455266313
+      Gray_Buttons_Pixel_20: 1315294279
+      Gray_Buttons_Pixel_21: -1977269299
+      Gray_Buttons_Pixel_22: -1769177806
+      Gray_Buttons_Pixel_23: -1415536583
+      Gray_Buttons_Pixel_24: 1149286984
+      Gray_Buttons_Pixel_25: -1774411985
+      Gray_Buttons_Pixel_26: 1009133427
+      Gray_Buttons_Pixel_27: -85133411
+      Gray_Buttons_Pixel_28: -665978320
+      Gray_Buttons_Pixel_29: 731305300
+      Gray_Buttons_Pixel_3: 1516152989
+      Gray_Buttons_Pixel_30: 1933601296
+      Gray_Buttons_Pixel_31: -1461998049
+      Gray_Buttons_Pixel_32: 32285674
+      Gray_Buttons_Pixel_33: -2096195310
+      Gray_Buttons_Pixel_34: -2034807670
+      Gray_Buttons_Pixel_35: 902372593
+      Gray_Buttons_Pixel_36: -1398510390
+      Gray_Buttons_Pixel_37: 2092430476
+      Gray_Buttons_Pixel_38: -1509867734
+      Gray_Buttons_Pixel_39: -647434875
+      Gray_Buttons_Pixel_4: 1380869536
+      Gray_Buttons_Pixel_40: 1918820948
+      Gray_Buttons_Pixel_41: -2090322325
+      Gray_Buttons_Pixel_42: 1258497694
+      Gray_Buttons_Pixel_43: -1246813285
+      Gray_Buttons_Pixel_44: -744549433
+      Gray_Buttons_Pixel_45: -1314395648
+      Gray_Buttons_Pixel_46: 1374382611
+      Gray_Buttons_Pixel_47: 1829578937
+      Gray_Buttons_Pixel_48: -881672705
+      Gray_Buttons_Pixel_49: -1949995788
+      Gray_Buttons_Pixel_5: 907668088
+      Gray_Buttons_Pixel_50: 1687901372
+      Gray_Buttons_Pixel_51: -1454192556
+      Gray_Buttons_Pixel_52: 1402574723
+      Gray_Buttons_Pixel_53: 921605630
+      Gray_Buttons_Pixel_54: -1667603526
+      Gray_Buttons_Pixel_55: -1612659141
+      Gray_Buttons_Pixel_56: -741070808
+      Gray_Buttons_Pixel_57: 469438309
+      Gray_Buttons_Pixel_58: -1184274179
+      Gray_Buttons_Pixel_59: 1133146487
+      Gray_Buttons_Pixel_6: -1820811425
+      Gray_Buttons_Pixel_60: -721651830
+      Gray_Buttons_Pixel_61: -1427995923
+      Gray_Buttons_Pixel_62: 177908714
+      Gray_Buttons_Pixel_63: 440450005
+      Gray_Buttons_Pixel_64: 1373052617
+      Gray_Buttons_Pixel_65: 1593025731
+      Gray_Buttons_Pixel_66: -894277214
+      Gray_Buttons_Pixel_67: -1181222263
+      Gray_Buttons_Pixel_68: 1505549517
+      Gray_Buttons_Pixel_69: -711575495
+      Gray_Buttons_Pixel_7: 1390791217
+      Gray_Buttons_Pixel_70: 92510087
+      Gray_Buttons_Pixel_71: 2057144002
+      Gray_Buttons_Pixel_72: 690480935
+      Gray_Buttons_Pixel_73: -1830024443
+      Gray_Buttons_Pixel_74: 2001737171
+      Gray_Buttons_Pixel_75: 1339170698
+      Gray_Buttons_Pixel_76: 1123267175
+      Gray_Buttons_Pixel_77: 1741767253
+      Gray_Buttons_Pixel_78: 1812964326
+      Gray_Buttons_Pixel_79: -1294546503
+      Gray_Buttons_Pixel_8: 1800034842
+      Gray_Buttons_Pixel_80: -213246136
+      Gray_Buttons_Pixel_81: -2025183349
+      Gray_Buttons_Pixel_82: 748556345
+      Gray_Buttons_Pixel_83: -1623265479
+      Gray_Buttons_Pixel_84: 1070814110
+      Gray_Buttons_Pixel_85: -92513762
+      Gray_Buttons_Pixel_86: -665336924
+      Gray_Buttons_Pixel_87: -638512824
+      Gray_Buttons_Pixel_88: -979173421
+      Gray_Buttons_Pixel_89: 1682303255
+      Gray_Buttons_Pixel_9: -1747420521
+      Gray_Buttons_Pixel_90: 1260776282
+      Gray_Buttons_Pixel_91: 703034553
+      Gray_Buttons_Pixel_92: -676780333
+      Gray_Buttons_Pixel_93: -1178391433
+      Gray_Buttons_Pixel_94: 1501733052
+      Gray_Buttons_Pixel_95: -1571189646
+      Gray_Buttons_Pixel_96: 1725659340
+      Gray_Buttons_Pixel_97: 468982666
+      Gray_Buttons_Pixel_98: 927240679
+      Gray_Buttons_Pixel_99: 84889043
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
