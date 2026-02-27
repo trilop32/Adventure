@@ -37,14 +37,14 @@ public class Player : MonoBehaviour
     
     private Camera _mainCamera;
 
+    private bool _isPaused = false;
+
     private void Awake()
     {
         Instance = this;
         _rb = GetComponent<Rigidbody2D>();
         _knockBack = GetComponent<KnockBack>();
-
-        _mainCamera = Camera.main;
-        
+        _mainCamera = Camera.main;        
         _initialMovingSpeed  = movingSpeed;
     }
 
@@ -52,28 +52,32 @@ public class Player : MonoBehaviour
     {
         _currentHealth = maxHealth;
         _canTakeDamage = true;
-        _isAlive = true;
-        
+        _isAlive = true;        
         GameInput.Instance.OnPlayerAttack += GameInput_OnPlayerAttack;
         GameInput.Instance.OnPlayerDash += GameInput_OnPlayerDash;
     }
     
     private void Update()
     {
+        if (_isPaused) {
+            _inputVector = Vector2.zero;
+            return;
+        }
         _inputVector = GameInput.Instance.GetMovementVector();
     }
 
-
     private void FixedUpdate()
     {
+        if (_isPaused) return;
         if (_knockBack.IsGettingKnockedBack)
             return;
 
         HandleMovement();
     }
-
+    public void SetPaused(bool paused) {
+        _isPaused = paused;
+    }
     public bool IsAlive() => _isAlive;
-
 
     public void TakeDamage(Transform damageSource, int damage)
     {
@@ -107,6 +111,7 @@ public class Player : MonoBehaviour
     }
     
     private void GameInput_OnPlayerDash(object sender, System.EventArgs e) {
+        if (_isPaused) return;
         Dash();
     }
 
@@ -130,7 +135,6 @@ public class Player : MonoBehaviour
         _isDashing  = false;
     }
 
-
     private IEnumerator DamageRecoveryRoutine()
     {
         yield return new WaitForSeconds(damageRecoveryTime);
@@ -144,6 +148,7 @@ public class Player : MonoBehaviour
 
     private void GameInput_OnPlayerAttack(object sender, System.EventArgs e)
     {
+        if (_isPaused) return;
         ActiveWeapon.Instance.GetActiveWeapon().Attack();
     }
 
