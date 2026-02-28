@@ -117,6 +117,7 @@ GameObject:
   - component: {fileID: 6299999983588585594}
   - component: {fileID: 2836771372388124793}
   - component: {fileID: 24657566379568454}
+  - component: {fileID: 7202492433950084273}
   m_Layer: 0
   m_Name: Bush
   m_TagString: Untagged
@@ -193,3 +194,17 @@ MonoBehaviour:
   m_Center: {x: 0.010850191, y: -0.10606998, z: 0}
   m_Area: 1
   m_AffectedAgents: ffffffff
+--- !u!114 &7202492433950084273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9089699569196242851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4681973b1fed3524cb0545ba2f6d4396, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestructiblePlant
+  xpPrefab: {fileID: 0}
+  xpValue: 1

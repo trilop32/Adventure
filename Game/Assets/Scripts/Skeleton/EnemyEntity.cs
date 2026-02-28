@@ -7,6 +7,8 @@ using UnityEngine;
 public class EnemyEntity : MonoBehaviour
 {
     [SerializeField] private EnemySO enemySO;
+    [SerializeField] private GameObject xpPrefab;
+    [SerializeField] private int xpValue = 3;
 
     public event EventHandler OnTakeHit;
     public event EventHandler OnDeath;
@@ -56,16 +58,21 @@ public class EnemyEntity : MonoBehaviour
 
     private void DetectDeath()
     {
-        if (_currentHealth <= 0)
-        {
+        if (_currentHealth <= 0) {
             _boxCollider2D.enabled = false;
             _polygonCollider2D.enabled = false;
-
             _enemyAI.SetDeathState();
-
             OnDeath?.Invoke(this, EventArgs.Empty);
+            SpawnXP();
         }
     }
 
-
+    private void SpawnXP() {
+        if (xpPrefab != null) {
+            XPDropSpawner.SpawnXP(transform.position, xpValue, xpPrefab);
+        }
+        else {
+            XPDropSpawner.SpawnXP(transform.position, xpValue);
+        }
+    }
 }

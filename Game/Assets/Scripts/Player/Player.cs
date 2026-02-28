@@ -38,6 +38,8 @@ public class Player : MonoBehaviour
     private Camera _mainCamera;
 
     private bool _isPaused = false;
+    private bool _isLevelComplete = false;
+    private bool _isDead = false;
 
     private void Awake()
     {
@@ -59,7 +61,7 @@ public class Player : MonoBehaviour
     
     private void Update()
     {
-        if (_isPaused) {
+        if (_isPaused || _isLevelComplete || _isDead) {
             _inputVector = Vector2.zero;
             return;
         }
@@ -68,15 +70,21 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (_isPaused) return;
+        if (_isPaused || _isLevelComplete || _isDead) return;
         if (_knockBack.IsGettingKnockedBack)
             return;
-
         HandleMovement();
     }
     public void SetPaused(bool paused) {
         _isPaused = paused;
     }
+    public void SetLevelComplete(bool complete) {
+        _isLevelComplete = complete;
+    }
+    public void SetDead(bool dead) {
+        _isDead = dead;
+    }
+
     public bool IsAlive() => _isAlive;
 
     public void TakeDamage(Transform damageSource, int damage)
@@ -102,16 +110,15 @@ public class Player : MonoBehaviour
         if (_currentHealth == 0 && _isAlive)
         {
             _isAlive = false;
+            _isDead = true;
             _knockBack.StopKnockBackMovement();
             GameInput.Instance.DisableMovement();
-
             OnPlayerDeath?.Invoke(this, EventArgs.Empty);
         }
-
     }
     
     private void GameInput_OnPlayerDash(object sender, System.EventArgs e) {
-        if (_isPaused) return;
+        if (_isPaused || _isLevelComplete || _isDead) return;
         Dash();
     }
 
@@ -148,7 +155,7 @@ public class Player : MonoBehaviour
 
     private void GameInput_OnPlayerAttack(object sender, System.EventArgs e)
     {
-        if (_isPaused) return;
+        if (_isPaused || _isLevelComplete || _isDead) return;
         ActiveWeapon.Instance.GetActiveWeapon().Attack();
     }
 
@@ -174,5 +181,4 @@ public class Player : MonoBehaviour
     {
         GameInput.Instance.OnPlayerAttack -= GameInput_OnPlayerAttack;
     }
-
 }

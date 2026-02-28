@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Area
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 784452434106789317, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
+      propertyPath: destructiblePlant
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1729792119820708463, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -53,12 +57,24 @@ PrefabInstance:
       value: Stump2Visual
       objectReference: {fileID: 0}
     - target: {fileID: 6299999983588585594, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 6299999983588585594, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 6299999983588585594, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 6299999983588585594, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 15.45
       objectReference: {fileID: 0}
     - target: {fileID: 6299999983588585594, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -21.55
       objectReference: {fileID: 0}
     - target: {fileID: 6299999983588585594, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -70,15 +86,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6299999983588585594, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6299999983588585594, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6299999983588585594, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6299999983588585594, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -92,12 +108,39 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6299999983588585594, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9089699569196242851, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
       propertyPath: m_Name
       value: Stump2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7818166145947684080, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9089699569196242851, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9111318188052075260}
   m_SourcePrefab: {fileID: 100100000, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
+--- !u!1 &2228389485875268096 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9089699569196242851, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
+  m_PrefabInstance: {fileID: 6974331959207599523}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9111318188052075260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2228389485875268096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4681973b1fed3524cb0545ba2f6d4396, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestructiblePlant
+  xpPrefab: {fileID: 0}
+  xpValue: 1

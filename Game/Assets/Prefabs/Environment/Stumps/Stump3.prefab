@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Area
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 784452434106789317, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
+      propertyPath: destructiblePlant
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1729792119820708463, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -54,11 +58,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6299999983588585594, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 13.3486595
       objectReference: {fileID: 0}
     - target: {fileID: 6299999983588585594, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -22.32849
       objectReference: {fileID: 0}
     - target: {fileID: 6299999983588585594, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -70,15 +74,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6299999983588585594, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6299999983588585594, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6299999983588585594, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6299999983588585594, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -96,8 +100,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stump3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7818166145947684080, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9089699569196242851, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6350036464063629084}
   m_SourcePrefab: {fileID: 100100000, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
+--- !u!1 &234707363336392532 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9089699569196242851, guid: e99b021b11097984c9b4f4d4260437e2, type: 3}
+  m_PrefabInstance: {fileID: 9035558421975472375}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6350036464063629084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234707363336392532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4681973b1fed3524cb0545ba2f6d4396, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestructiblePlant
+  xpPrefab: {fileID: 0}
+  xpValue: 1
