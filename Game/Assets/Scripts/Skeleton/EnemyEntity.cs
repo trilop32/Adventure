@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.AI;
 
 [RequireComponent(typeof(PolygonCollider2D))]
 [RequireComponent(typeof(BoxCollider2D))]
@@ -62,6 +63,22 @@ public class EnemyEntity : MonoBehaviour
             _boxCollider2D.enabled = false;
             _polygonCollider2D.enabled = false;
             _enemyAI.SetDeathState();
+            var navMeshAgent = GetComponent<NavMeshAgent>();
+            if (navMeshAgent != null) {
+                navMeshAgent.isStopped = true;
+                navMeshAgent.ResetPath();
+                navMeshAgent.enabled = false;
+            }
+            var rb = GetComponent<Rigidbody2D>();
+            if (rb != null) {
+                rb.linearVelocity = Vector2.zero;
+                rb.simulated = false;
+            }
+            var knockBack = GetComponent<KnockBack>();
+            if (knockBack != null) {
+                knockBack.StopKnockBackMovement();
+                knockBack.enabled = false;
+            }
             OnDeath?.Invoke(this, EventArgs.Empty);
             SpawnXP();
         }

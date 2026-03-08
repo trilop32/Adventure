@@ -36,13 +36,12 @@ public class SkeletonVisual : MonoBehaviour
         enemyEntity.OnDeath += _enemyEntity_OnDeath;
     }
 
-
-
     private void _enemyEntity_OnDeath(object sender, System.EventArgs e)
     {
         _animator.SetBool(Die, true);
         _spriteRenderer.sortingOrder = -1;
         enemyShadow.SetActive(false);
+        enabled = false;
     }
 
     private void _enemyEntity_OnTakeHit(object sender, System.EventArgs e)

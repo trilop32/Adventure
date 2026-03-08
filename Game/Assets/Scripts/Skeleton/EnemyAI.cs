@@ -67,8 +67,15 @@ public class EnemyAI : MonoBehaviour
 
     public void SetDeathState()
     {
+        _navMeshAgent.isStopped = true;
         _navMeshAgent.ResetPath();
+        _navMeshAgent.enabled = false;
         _currentState = State.Death;
+        var rb = GetComponent<Rigidbody2D>();
+        if (rb != null) {
+            rb.linearVelocity = Vector2.zero;
+            rb.simulated = false;
+        }
     }
 
 
