@@ -32,14 +32,25 @@ public class EnemyEntity : MonoBehaviour
         _currentHealth = enemySO.enemyHealth;
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.transform.TryGetComponent(out Player player))
-        {
-            player.TakeDamage(transform, enemySO.enemyDamageAmount);
+    //private void OnTriggerStay2D(Collider2D collision)
+    //{
+    //    if (collision.transform.TryGetComponent(out Player player))
+    //    {
+    //        player.TakeDamage(transform, enemySO.enemyDamageAmount);
+    //    }
+    //}
+
+    public void DealDamageToPlayer() {
+        float attackRange = 2f;
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, attackRange);
+
+        foreach (var collider in colliders) {
+            if (collider.TryGetComponent(out Player player)) {
+                player.TakeDamage(transform, enemySO.enemyDamageAmount);
+                break;
+            }
         }
     }
-
     public void TakeDamage(int damage)
     {
         _currentHealth -= damage;

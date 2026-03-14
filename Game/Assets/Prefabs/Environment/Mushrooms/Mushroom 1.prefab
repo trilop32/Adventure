@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6299999983588585594}
   - component: {fileID: 4126834498339895228}
   - component: {fileID: 3441517468418091035}
-  - component: {fileID: 7066605440581961231}
   m_Layer: 0
   m_Name: Mushroom 1
   m_TagString: Untagged
@@ -130,17 +129,3 @@ CapsuleCollider2D:
   m_Offset: {x: -0.061866075, y: -0.18065055}
   m_Size: {x: 0.6684019, y: 0.6387026}
   m_Direction: 1
---- !u!114 &7066605440581961231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9089699569196242851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4681973b1fed3524cb0545ba2f6d4396, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DestructiblePlant
-  xpPrefab: {fileID: 0}
-  xpValue: 1

@@ -75,5 +75,7 @@ public class SkeletonVisual : MonoBehaviour
         enemyEntity.OnTakeHit -= _enemyEntity_OnTakeHit;
         enemyEntity.OnDeath -= _enemyEntity_OnDeath;
     }
-
+    public void OnAttackHitFrame() {
+        enemyEntity.DealDamageToPlayer();
+    }
 }

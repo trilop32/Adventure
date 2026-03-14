@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1919037478781259942}
   - component: {fileID: 6337229517173105108}
   - component: {fileID: 1990034039309401508}
-  - component: {fileID: 1968674805408795528}
   m_Layer: 0
   m_Name: Bush2
   m_TagString: Untagged
@@ -130,17 +129,3 @@ CapsuleCollider2D:
   m_Offset: {x: 0.031053403, y: 0.29431}
   m_Size: {x: 1.2004097, y: 1.2004097}
   m_Direction: 1
---- !u!114 &1968674805408795528
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2203693224416994445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4681973b1fed3524cb0545ba2f6d4396, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DestructiblePlant
-  xpPrefab: {fileID: 0}
-  xpValue: 1

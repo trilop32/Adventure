@@ -213,7 +213,7 @@ extern void EnemyEntity_add_OnDeath_m486534632421AEA3C4E38455A3867C3537DA7D6A (v
 extern void EnemyEntity_remove_OnDeath_mF980AF74D13FBAEACF65CB3AF96D879AAB8B443B (void);
 extern void EnemyEntity_Awake_m13FB157517AD80A9AC1C251A937B0E2DC1DEEDB1 (void);
 extern void EnemyEntity_Start_m2B4A9ED7C974E4C8885AF9C5C30A65F30E04945E (void);
-extern void EnemyEntity_OnTriggerStay2D_m3477249288D05DA25D5728519C370BE8D656C0F1 (void);
+extern void EnemyEntity_DealDamageToPlayer_m09152FF0258A75C460065CAF11AAEFFC0FDA950B (void);
 extern void EnemyEntity_TakeDamage_mECD5E2C3C5C3EA93566E924209A88FD47A723BA1 (void);
 extern void EnemyEntity_PolygonColliderTurnOff_m55D37E691AAC2C0CB40FF5D04DE74DFA7EF864CA (void);
 extern void EnemyEntity_PolygonColliderTurnOn_mC39F82A0B5690C0E632113A72D4EAB5CEA11A992 (void);
@@ -229,6 +229,7 @@ extern void SkeletonVisual_TriggerAttackAnimationTurnOff_m246DCB2EEDC5CE4BE52079
 extern void SkeletonVisual_TriggerAttackAnimationTurnOn_m3A390F749C8B71372C176E01BABDF1421E1DC4F0 (void);
 extern void SkeletonVisual__enemyAI_OnEnemyAttack_mA5A32F605EE0C33310E712274D22F82BB86E9FC0 (void);
 extern void SkeletonVisual_OnDestroy_m8620D0B382EC8F0CC69EB9E8E4457469701D13FB (void);
+extern void SkeletonVisual_OnAttackHitFrame_mA3E6E281C5491C0726E1A34F3AB2C7D1411D329E (void);
 extern void SkeletonVisual__ctor_m4C07BA18FD2E934F6C7D61271827E53E0A1CAB8A (void);
 extern void SkeletonVisual__cctor_m3DAE3DBEF936B28E55E43F71A98F70027F0F99F7 (void);
 extern void ActiveWeapon_get_Instance_mA1914F84BF1DA377E54C2A36B4CE8CA25A83BBC7 (void);
@@ -296,7 +297,7 @@ extern void XPPickup__ctor_mB94DBDB9EBD3C34FDB5249ADF9758F62BB4D931F (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
 extern void Utils_GetRandomDir_mD40FDD908F6C0B12129219D3B9B34500F9E5991B (void);
-static Il2CppMethodPointer s_methodPointers[292] = 
+static Il2CppMethodPointer s_methodPointers[293] = 
 {
 	PlayerInputActions_get_asset_m9B9C68DD9768FCB1CF6BD634D275E31D0235D444,
 	PlayerInputActions__ctor_m3007C78241520148B12C773C76D25024D9B20E3A,
@@ -507,7 +508,7 @@ static Il2CppMethodPointer s_methodPointers[292] =
 	EnemyEntity_remove_OnDeath_mF980AF74D13FBAEACF65CB3AF96D879AAB8B443B,
 	EnemyEntity_Awake_m13FB157517AD80A9AC1C251A937B0E2DC1DEEDB1,
 	EnemyEntity_Start_m2B4A9ED7C974E4C8885AF9C5C30A65F30E04945E,
-	EnemyEntity_OnTriggerStay2D_m3477249288D05DA25D5728519C370BE8D656C0F1,
+	EnemyEntity_DealDamageToPlayer_m09152FF0258A75C460065CAF11AAEFFC0FDA950B,
 	EnemyEntity_TakeDamage_mECD5E2C3C5C3EA93566E924209A88FD47A723BA1,
 	EnemyEntity_PolygonColliderTurnOff_m55D37E691AAC2C0CB40FF5D04DE74DFA7EF864CA,
 	EnemyEntity_PolygonColliderTurnOn_mC39F82A0B5690C0E632113A72D4EAB5CEA11A992,
@@ -523,6 +524,7 @@ static Il2CppMethodPointer s_methodPointers[292] =
 	SkeletonVisual_TriggerAttackAnimationTurnOn_m3A390F749C8B71372C176E01BABDF1421E1DC4F0,
 	SkeletonVisual__enemyAI_OnEnemyAttack_mA5A32F605EE0C33310E712274D22F82BB86E9FC0,
 	SkeletonVisual_OnDestroy_m8620D0B382EC8F0CC69EB9E8E4457469701D13FB,
+	SkeletonVisual_OnAttackHitFrame_mA3E6E281C5491C0726E1A34F3AB2C7D1411D329E,
 	SkeletonVisual__ctor_m4C07BA18FD2E934F6C7D61271827E53E0A1CAB8A,
 	SkeletonVisual__cctor_m3DAE3DBEF936B28E55E43F71A98F70027F0F99F7,
 	ActiveWeapon_get_Instance_mA1914F84BF1DA377E54C2A36B4CE8CA25A83BBC7,
@@ -636,7 +638,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[21] =
 	{ 0x06000029, CombatActions_RemoveCallbacks_m35B34638F24E777D0CCE61DEBDD8E5E7408434C9_AdjustorThunk },
 	{ 0x0600002A, CombatActions_SetCallbacks_m67463AA1124F500C2A1DC6C8FDD54107D84D0267_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[292] = 
+static const int32_t s_InvokerIndices[293] = 
 {
 	15745,
 	15990,
@@ -664,7 +666,7 @@ static const int32_t s_InvokerIndices[292] =
 	15990,
 	15990,
 	15533,
-	26117,
+	26120,
 	12043,
 	12043,
 	12043,
@@ -675,7 +677,7 @@ static const int32_t s_InvokerIndices[292] =
 	15990,
 	15990,
 	15533,
-	26116,
+	26119,
 	12043,
 	12043,
 	12043,
@@ -697,8 +699,8 @@ static const int32_t s_InvokerIndices[292] =
 	15745,
 	15990,
 	15745,
-	27730,
-	26516,
+	27733,
+	26519,
 	12043,
 	12043,
 	12043,
@@ -744,8 +746,8 @@ static const int32_t s_InvokerIndices[292] =
 	15745,
 	15990,
 	15745,
-	27730,
-	26516,
+	27733,
+	26519,
 	15990,
 	15990,
 	15990,
@@ -776,8 +778,8 @@ static const int32_t s_InvokerIndices[292] =
 	15990,
 	15990,
 	15990,
-	27730,
-	26516,
+	27733,
+	26519,
 	12043,
 	12043,
 	12043,
@@ -823,7 +825,7 @@ static const int32_t s_InvokerIndices[292] =
 	15990,
 	15990,
 	15990,
-	27833,
+	27836,
 	15990,
 	12043,
 	12043,
@@ -847,7 +849,7 @@ static const int32_t s_InvokerIndices[292] =
 	12043,
 	15990,
 	15990,
-	12043,
+	15990,
 	11974,
 	15990,
 	15990,
@@ -864,9 +866,10 @@ static const int32_t s_InvokerIndices[292] =
 	6059,
 	15990,
 	15990,
-	27833,
-	27730,
-	26516,
+	15990,
+	27836,
+	27733,
+	26519,
 	15990,
 	15990,
 	15745,
@@ -887,24 +890,24 @@ static const int32_t s_InvokerIndices[292] =
 	6059,
 	15990,
 	15990,
-	27833,
+	27836,
 	15990,
 	15990,
 	6059,
 	15990,
 	15990,
 	15990,
-	27833,
+	27836,
 	15990,
 	6059,
 	6059,
 	15990,
 	15990,
 	15990,
-	20986,
-	26109,
-	27730,
-	26516,
+	20988,
+	26112,
+	27733,
+	26519,
 	12043,
 	12043,
 	12043,
@@ -927,15 +930,15 @@ static const int32_t s_InvokerIndices[292] =
 	15990,
 	11974,
 	15990,
-	27861,
+	27864,
 	15990,
-	27830,
+	27833,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	292,
+	293,
 	s_methodPointers,
 	21,
 	s_adjustorThunks,
